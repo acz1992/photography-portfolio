@@ -10,3 +10,5 @@ Currently, two official plugins are available:
 ## Technologies used
 
 ### SCSS
+
+https://www.youtube.com/watch?v=EStNo2Kl-rQ&ab_channel=webdecoded 32.44

@@ -3,4 +3,5 @@ $primary: #000000;
 $secondary: #ffffff;
 
 // Import Bootstrap and its default variables
-@import "~bootstra/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+/* @import "bootstrap/dist/css/bootstrap.css"; */

@@ -1,4 +1,5 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
+import React from "react";
 
 const HeroSection = () => {
 	return (
@@ -19,14 +20,14 @@ const HeroSection = () => {
 								minimm veniam, quis nistrad exercitation ullamco
 								labors nisi ut aliquip ex ea commodo consequat.{" "}
 							</p>
-							<div className="buttonswrapper">
+							<div className="btns-wrapper">
 								<a href="/">Read my Blog</a>
 								<Button variant="secondary">Learn More</Button>
 							</div>
 						</div>
 					</Col>
 					<Col xs md="4">
-						<div></div>
+						<div className="img-wrapper"></div>
 					</Col>
 				</Row>
 			</Container>
