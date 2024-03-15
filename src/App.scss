@@ -229,7 +229,7 @@ a {
 
 // Footer Menu
 
-.footer-sectiob {
+.footer-section {
 	img {
 		width: 200px;
 	}
@@ -251,6 +251,19 @@ a {
 			li {
 				margin: 1.25rem 0;
 			}
+		}
+	}
+}
+
+.about-section-wrapper {
+	margin: 30px 0;
+
+	.about-img-wrapper {
+		img {
+			display: block;
+			width: 100%;
+			object-fit: cover;
+			height: 20rem;
 		}
 	}
 }

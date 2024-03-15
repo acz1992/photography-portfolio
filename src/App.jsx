@@ -8,6 +8,7 @@ import ImagesCollection from "./Components/ImagesCollection";
 import InformationSection from "./Components/InformationSection";
 import ContactForm from "./Components/ContactForm";
 import FooterMenu from "./Components/FooterMenu";
+import AboutSection from "./Components/AboutSection";
 
 function App() {
 	const [navbarOpen, setNavbarOpen] = useState(false);
@@ -22,6 +23,7 @@ function App() {
 				<HeroSection />
 				<InformationSection />
 				<ImagesCollection />
+				<AboutSection />
 				<Container className="footer-section">
 					<Row>
 						<div className="">

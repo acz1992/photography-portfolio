@@ -15,7 +15,7 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
 				</li>
 				<li className="nav-li">
 					<a
-						href="/"
+						href="#about"
 						className="nav-link"
 						onClick={() => setNavbarOpen(false)}
 					>
