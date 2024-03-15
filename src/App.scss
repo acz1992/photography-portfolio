@@ -104,3 +104,42 @@ a {
 		}
 	}
 }
+
+.menu-container {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	z-index: 10;
+	height: 100vh;
+	padding-top: 24px;
+	background-color: #161412;
+	transition-property: all;
+	transition-duration: 300ms;
+	opacity: 0;
+	transform: translateX(-360deg);
+
+	&.expanded {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	.menu-list {
+		width: 100%;
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		li {
+			list-style-type: none;
+
+			a {
+				color: white;
+				font-size: 36px;
+			}
+		}
+	}
+}
