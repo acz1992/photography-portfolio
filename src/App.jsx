@@ -4,6 +4,7 @@ import HeroSection from "../src/Components/HeroSection";
 import Header from "../src/Components/Header";
 import React, { useState } from "react";
 import MenuOverlay from "./Components/MenuOverlay";
+import ImagesCollection from "./Components/ImagesCollection";
 
 function App() {
 	const [navbarOpen, setNavbarOpen] = useState(false);
@@ -16,6 +17,7 @@ function App() {
 					setNavbarOpen={setNavbarOpen}
 				/>
 				<HeroSection />
+				<ImagesCollection />
 			</Container>
 		</div>
 	);
