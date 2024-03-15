@@ -7,7 +7,7 @@ const HeroSection = () => {
 			<Container className="hero-section-container">
 				<Row className="h-100">
 					<Col
-						xs
+						xs="12"
 						md="8"
 						className="d-flex flex-column justify-content-center text-start px-4"
 					>

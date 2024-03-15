@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from "react-router-hash-link";
 
 const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
 	return (
@@ -14,13 +15,21 @@ const MenuOverlay = ({ navbarOpen, setNavbarOpen }) => {
 					</a>
 				</li>
 				<li className="nav-li">
-					<a
+					<HashLink to="#about" smooth>
+						<p
+							className="nav-link"
+							onClick={() => setNavbarOpen(false)}
+						>
+							About
+						</p>
+					</HashLink>
+					{/* <a
 						href="#about"
 						className="nav-link"
 						onClick={() => setNavbarOpen(false)}
 					>
 						About
-					</a>
+					</a> */}
 				</li>
 			</ul>
 		</nav>

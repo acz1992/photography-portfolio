@@ -7,11 +7,19 @@
 	background-color: #161412;
 	height: 300px;
 
+	@media screen and (max-width: 960px) {
+		height: auto;
+	}
+
 	.img-wrapper {
 		height: 100%;
 		background-image: url("../src/assets/images/greekstatue.jpg");
 		background-position: center;
 		background-size: cover;
+
+		@media screen and (max-width: 960px) {
+			min-height: 30px;
+		}
 	}
 
 	p,
@@ -23,6 +31,10 @@
 	.btns-wrapper {
 		display: flex;
 		gap: 1em;
+
+		@media screen and (max-width: 960px) {
+			display: block;
+		}
 	}
 }
 p,
@@ -173,6 +185,16 @@ a {
 		overflow: hidden;
 		margin: 0;
 
+		img {
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			min-height: 100%;
+			min-width: 100%;
+			transform: translate(-50%, -50%);
+		}
+
 		&.short {
 			grid-row: span 1;
 		}
@@ -224,6 +246,10 @@ a {
 			width: 100%;
 			border: none;
 		}
+
+		@media screen and (max-width: 960px) {
+			width: auto;
+		}
 	}
 }
 
@@ -232,6 +258,13 @@ a {
 .footer-section {
 	img {
 		width: 200px;
+	}
+
+	.contact-us-img {
+		@media screen and (max-width: 960px) {
+			display: flex;
+			justify-content: center;
+		}
 	}
 
 	footer {
@@ -265,5 +298,20 @@ a {
 			object-fit: cover;
 			height: 20rem;
 		}
+	}
+}
+
+.header {
+	margin-bottom: 0.75rem;
+	margin-top: 0.3rem;
+}
+
+.logo {
+	font-family: "Forum";
+	font-size: 20px;
+	/* font-size: 34px; */
+
+	@media screen and (max-width: 960px) {
+		font-size: 18px;
 	}
 }

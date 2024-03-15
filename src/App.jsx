@@ -14,7 +14,7 @@ function App() {
 	const [navbarOpen, setNavbarOpen] = useState(false);
 	return (
 		<div className="App">
-			<Container>
+			<Container fluid>
 				<Header navbarOpen={navbarOpen} setNavbarOpen={setNavbarOpen} />
 				<MenuOverlay
 					navbarOpen={navbarOpen}
@@ -26,7 +26,7 @@ function App() {
 				<AboutSection />
 				<Container className="footer-section">
 					<Row>
-						<div className="">
+						<div className="contact-us-img">
 							<img
 								src="../src/assets/images/hand-holding-camera.jpg"
 								alt="hand holding camera"
@@ -34,10 +34,10 @@ function App() {
 						</div>
 					</Row>
 					<Row className="my-3">
-						<Col>
+						<Col xs={12} md={6}>
 							<ContactForm />
 						</Col>
-						<Col>
+						<Col xs={12} md={6}>
 							<FooterMenu />
 						</Col>
 					</Row>

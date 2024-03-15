@@ -1,10 +1,10 @@
 import React from "react";
+import ImageCard from "./ImageCard";
 
 const ImagesCollection = () => {
 	const imagesList = [...new Array(9)].map(
 		(number, index) => `../../src/assets/images/image-${index + 1}.jpg`
 	);
-	console.log(imagesList);
 
 	return (
 		<>
@@ -18,7 +18,7 @@ const ImagesCollection = () => {
 							key={index}
 						>
 							<figure>
-								<img src={imgUrl} alt="collection" />
+								<ImageCard imgUrl={imgUrl} />
 							</figure>
 						</li>
 					);
