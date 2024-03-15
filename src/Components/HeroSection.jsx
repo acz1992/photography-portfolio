@@ -20,7 +20,7 @@ const HeroSection = () => {
 								minimm veniam, quis nistrad exercitation ullamco
 								labors nisi ut aliquip ex ea commodo consequat.{" "}
 							</p>
-							<div className="btns-wrapper">
+							<div className="btns-wrapper px-4 d-flex align-items-center">
 								<a href="/">Read my Blog</a>
 								<Button variant="secondary">Learn More</Button>
 							</div>
