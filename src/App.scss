@@ -226,3 +226,31 @@ a {
 		}
 	}
 }
+
+// Footer Menu
+
+.footer-sectiob {
+	img {
+		width: 200px;
+	}
+
+	footer {
+		h3 {
+			margin-bottom: 2em;
+			color: #6e6e6e;
+			text-transform: capitalize;
+		}
+
+		ul {
+			list-style: none;
+			a {
+				text-decoration: none;
+				color: #333333;
+			}
+
+			li {
+				margin: 1.25rem 0;
+			}
+		}
+	}
+}

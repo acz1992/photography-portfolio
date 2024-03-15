@@ -7,6 +7,7 @@ import MenuOverlay from "./Components/MenuOverlay";
 import ImagesCollection from "./Components/ImagesCollection";
 import InformationSection from "./Components/InformationSection";
 import ContactForm from "./Components/ContactForm";
+import FooterMenu from "./Components/FooterMenu";
 
 function App() {
 	const [navbarOpen, setNavbarOpen] = useState(false);
@@ -33,6 +34,9 @@ function App() {
 					<Row className="my-3">
 						<Col>
 							<ContactForm />
+						</Col>
+						<Col>
+							<FooterMenu />
 						</Col>
 					</Row>
 				</Container>
